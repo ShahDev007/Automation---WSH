@@ -1,16 +1,58 @@
-# React + Vite
+# 🚀 AI-Powered Lead Intake & Routing Automation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:**  
+👉 https://<your-vercel-app>.vercel.app  
 
-Currently, two official plugins are available:
+*(React frontend → n8n → OpenAI → Airtable → Email)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is an **AI-powered lead intake and automation system** built to reduce manual lead triage, improve routing accuracy, and provide sales teams with actionable context before first contact.
 
-## Expanding the ESLint configuration
+A customer submits a lead through a web form. The system automatically:
+- Validates and normalizes incoming data
+- Uses AI to classify intent, urgency, red flags, and missing information
+- Routes the lead by territory using deterministic business rules
+- Stores enriched lead data in Airtable as the system of record
+- Notifies the assigned representative via email
+- Logs every automation run for traceability and debugging
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The focus of this project is **operational reliability, explainability, and scalability**, not just AI output.
+
+---
+
+## 🧠 Key Features
+
+- **AI Classification (OpenAI)**
+  - Lead intent (High / Medium / Low)
+  - Urgency detection
+  - Natural-language AI summary
+  - Red flags identification
+  - Missing critical information detection
+  - Suggested next message for sales reps
+
+- **Deterministic Territory Routing**
+  - ZIP → prefix → territory mapping
+  - Explainable routing reasons
+  - Safe fallback assignments
+
+- **Airtable as System of Record**
+  - Structured lead intelligence
+  - Clear audit trail for automation runs
+  - Sales- and ops-friendly views
+
+- **Automated Notifications**
+  - Clean email alerts to assigned reps
+  - Email used only as a trigger, not as a data source
+
+- **Production-Safe Design**
+  - Defensive JSON parsing for AI output
+  - Graceful degradation on AI or data failures
+  - No silent automation failures
+
+---
+
+## 🏗️ Architecture
+
