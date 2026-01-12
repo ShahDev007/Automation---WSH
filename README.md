@@ -156,7 +156,7 @@ Email Notification
 ### Frontend Setup
 
 ```bash
-git clone [https://github.com/shahdev007/wsh-ai-lead-automation.git](https://github.com/ShahDev007/Automation---WSH)
+git clone https://github.com/shahdev007/wsh-ai-lead-automation.git .
 cd frontend
 npm install
 npm run dev
