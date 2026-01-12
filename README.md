@@ -207,14 +207,6 @@ Additional workflows, SLA logic, or CRM integrations can be added without re-arc
 - AI confidence scoring
 - Auto-generated rep follow-up drafts
 
----
-
-## 🎤 Interview Talking Points
-
-- How AI is used only where rules fall short (unstructured text)
-- Why explainable routing builds trust with operations teams
-- How this reduces manual workload without removing human oversight
-- How this system could integrate with West Shore Home's existing tools
 
 ---
 
