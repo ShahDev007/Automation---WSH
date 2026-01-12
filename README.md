@@ -218,8 +218,8 @@ MIT
 
 ## 👤 Author
 
-Built by [Dev Shah] as a portfolio demonstration for AI automation engineering roles.
+Built by Dev Shah as a portfolio demonstration for AI automation engineering roles.
 
-**Contact:** your.email@example.com  
-**LinkedIn:** https://linkedin.com/in/yourprofile  
-**Portfolio:** https://yourportfolio.com
+**Contact:** devshahtech@gmail.com  
+**LinkedIn:** https://linkedin.com/in/ShahDev007  
+**Portfolio:** https://devshah-portfolio.lovable.app/
