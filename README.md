@@ -1,7 +1,7 @@
 # 🏠 West Shore Home – AI-Powered Lead Intake & Routing Automation
 
 **Live Demo (Frontend):**  
-👉 https://your-vercel-app.vercel.app  
+👉 [https://your-vercel-app.vercel.app](https://automation-wsh.vercel.app/)
 
 **Project Type:** AI + Automation Workflow Demo  
 **Role Alignment:** Junior AI Automation Specialist (West Shore Home)  
@@ -156,7 +156,7 @@ Email Notification
 ### Frontend Setup
 
 ```bash
-git clone https://github.com/your-username/wsh-ai-lead-automation.git
+git clone [https://github.com/shahdev007/wsh-ai-lead-automation.git](https://github.com/ShahDev007/Automation---WSH)
 cd frontend
 npm install
 npm run dev
@@ -226,7 +226,7 @@ MIT
 
 ## 👤 Author
 
-Built by [Your Name] as a portfolio demonstration for AI automation engineering roles.
+Built by [Dev Shah] as a portfolio demonstration for AI automation engineering roles.
 
 **Contact:** your.email@example.com  
 **LinkedIn:** https://linkedin.com/in/yourprofile  
