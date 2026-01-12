@@ -1,7 +1,7 @@
 # 🏠 West Shore Home – AI-Powered Lead Intake & Routing Automation
 
 **Live Demo (Frontend):**  
-👉 [https://your-vercel-app.vercel.app](https://automation-wsh.vercel.app/)
+👉 [https://automation-wsh.vercel.app/](https://automation-wsh.vercel.app/)
 
 **Project Type:** AI + Automation Workflow Demo  
 **Role Alignment:** Junior AI Automation Specialist (West Shore Home)  
