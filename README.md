@@ -142,7 +142,7 @@ Email Notification
 
 ## 🌐 Live Demo
 
-👉 https://your-vercel-app.vercel.app  
+👉 https://automation-wsh.vercel.app/
 
 ### Suggested Demo Scenarios
 - High-intent bathroom remodel → AI flags urgency and readiness
