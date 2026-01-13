@@ -157,7 +157,6 @@ export default function App() {
                 <input
                   value={form.fullName}
                   onChange={(e) => updateField("fullName", e.target.value)}
-                  placeholder="Sam Demo"
                   autoComplete="name"
                 />
               </label>
@@ -167,7 +166,6 @@ export default function App() {
                 <input
                   value={form.zip}
                   onChange={(e) => updateField("zip", e.target.value)}
-                  placeholder="17110"
                   inputMode="numeric"
                   autoComplete="postal-code"
                 />
@@ -180,7 +178,6 @@ export default function App() {
                 <input
                   value={form.email}
                   onChange={(e) => updateField("email", e.target.value)}
-                  placeholder="sam@example.com"
                   autoComplete="email"
                 />
               </label>
@@ -190,7 +187,6 @@ export default function App() {
                 <input
                   value={form.phone}
                   onChange={(e) => updateField("phone", e.target.value)}
-                  placeholder="(619) 379-7248"
                   inputMode="tel"
                   autoComplete="tel"
                 />
@@ -202,7 +198,6 @@ export default function App() {
               <input
                 value={form.address}
                 onChange={(e) => updateField("address", e.target.value)}
-                placeholder="123 Market St"
                 autoComplete="street-address"
               />
             </label>
@@ -256,7 +251,6 @@ export default function App() {
               <textarea
                 value={form.leadNotes}
                 onChange={(e) => updateField("leadNotes", e.target.value)}
-                placeholder="Need bathroom remodel, want quote this month. Ready to schedule consultation."
                 rows={4}
               />
             </label>
