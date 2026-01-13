@@ -277,7 +277,7 @@ export default function App() {
           </form>
         </section>
 
-        <section className="card">
+        {/* <section className="card">
           <h2>Debug</h2>
           <p className="subtitle">
             Shows the raw response from n8n (useful during demo + testing).
@@ -299,7 +299,7 @@ export default function App() {
             <div className="debugTitle">Current Payload Preview</div>
             <pre className="pre">{JSON.stringify(form, null, 2)}</pre>
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   );
